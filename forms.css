@@ -1,0 +1,110 @@
+
+body {
+  display: flex;
+  flex-direction: column;
+  background: #fff9e6;
+  color: #4d3900;
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+form,
+fieldset {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  background: linear-gradient(to top, #ffe699 20%, transparent),
+              url('tiger.jpg') no-repeat center;
+  background-size: cover;
+  border: .125em solid;
+  border-radius: 10%;
+  width: 60%;
+  align-self: center;
+}
+
+fieldset {
+  width: 90%;
+  padding: .625em;
+  border: none;
+}
+
+legend {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 1.25em;
+  padding: .625em;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+  width: 95%;
+  height: 8vh;
+  margin: auto;
+  background: #fff9e6;
+  color: #997300;
+  border: .125em groove #4d3900;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-bottom: 0.5em;
+  background: #fff9e6;
+}
+
+button {
+  background: #4d3900;
+  color: #fff9e6;
+  font-size: 1.25em;
+  margin: 1.25em auto;
+  padding: .4375em;
+  /* border: .125em groove; */
+  border-radius: 3%;
+}
+
+
+/* Classes */
+
+.field-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+
+.deep {
+  margin-bottom: .5em;
+}
+
+.digit {
+  display: flex;
+  align-items: center;
+  background: #4d3900;
+  color: #fff9e6;
+  border-radius: 100%;
+  padding: .21875em .4375em;
+
+  margin-right: .375em;
+
+}
+/* .field-two {
+  max-width: auto;
+} */
