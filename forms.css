@@ -1,6 +1,13 @@
+/* Selectors */
+
+body,
+form,
+fieldset,
+legend {
+  display: flex;
+}
 
 body {
-  display: flex;
   flex-direction: column;
   background: #fff9e6;
   color: #4d3900;
@@ -13,7 +20,6 @@ h1 {
 
 form,
 fieldset {
-  display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: center;
@@ -37,7 +43,6 @@ fieldset {
 }
 
 legend {
-  display: flex;
   flex-direction: row;
   align-items: center;
   font-size: 1.25em;
