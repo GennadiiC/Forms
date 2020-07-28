@@ -107,15 +107,14 @@ button {
   margin-bottom: .5em;
 }
 
-.digit {
+
+/* Pseudo - classes and selectors */
+
+span:only-child {
   align-items: center;
   background: #4d3900;
   color: #fff9e6;
   border-radius: 100%;
   padding: .21875em .4375em;
   margin-right: .375em;
-
 }
-/* .field-two {
-  max-width: auto;
-} */
