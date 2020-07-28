@@ -75,6 +75,10 @@ input[type="checkbox"] {
   background: #fff9e6;
 }
 
+button[type="submit"] {
+  cursor: pointer;
+}
+
 button {
   background: #4d3900;
   color: #fff9e6;
