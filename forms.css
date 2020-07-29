@@ -77,18 +77,26 @@ input[type="checkbox"] {
 
 button[type="submit"] {
   cursor: pointer;
-}
-
-button {
   background: #4d3900;
   color: #fff9e6;
   font-size: 1.25em;
   margin: 1.25em auto;
   padding: .4375em;
-  /* border: .125em groove; */
   border-radius: 3%;
 }
 
+label[for="name"],
+label[for="email"],
+label[for="password"],
+label[for="life"],
+label[for="who"],
+optgroup[label="street"],
+optgroup[label="food"],
+optgroup[label="tune"],
+optgroup[label="bad"] {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-weight: bolder;
+}
 
 /* Classes */
 
@@ -107,7 +115,6 @@ button {
   margin-bottom: .5em;
 }
 
-
 /* Pseudo - classes and selectors */
 
 span:only-child {
@@ -117,4 +124,21 @@ span:only-child {
   border-radius: 100%;
   padding: .21875em .4375em;
   margin-right: .375em;
+}
+
+label[for=""],
+label[for="horse"],
+label[for="tiger"],
+label[for="sleeping"],
+label[for="eating"],
+label[for="balagan"] {
+  font-family: "Courier New", Courier, monospace;
+}
+
+label[for=""] {
+  margin-top: 15px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.25em;
+  text-transform: uppercase;
+  font-weight: bolder;
 }
