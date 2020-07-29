@@ -90,10 +90,7 @@ label[for="email"],
 label[for="password"],
 label[for="life"],
 label[for="who"],
-optgroup[label="street"],
-optgroup[label="food"],
-optgroup[label="tune"],
-optgroup[label="bad"] {
+select[id="who"] {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   font-weight: bolder;
 }
@@ -117,6 +114,13 @@ optgroup[label="bad"] {
 
 /* Pseudo - classes and selectors */
 
+input:focus,
+textarea:focus,
+select:focus {
+  background: #E7DDB7;
+  color: #A19218;
+}
+
 span:only-child {
   align-items: center;
   background: #4d3900;
@@ -133,6 +137,7 @@ label[for="sleeping"],
 label[for="eating"],
 label[for="balagan"] {
   font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
 }
 
 label[for=""] {
@@ -140,5 +145,9 @@ label[for=""] {
   font-family: "Courier New", Courier, monospace;
   font-size: 1.25em;
   text-transform: uppercase;
-  font-weight: bolder;
+}
+
+input[type="radio"]:checked + label,
+input[type="checkbox"]:checked + label {
+  text-transform: uppercase;
 }
